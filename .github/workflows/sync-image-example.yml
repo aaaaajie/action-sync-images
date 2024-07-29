@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://citizenstig/dvwa docker://registry.cn-hangzhou.aliyuncs.com/citizenstig/dvwa
+         skopeo copy docker://acgpiano/sqli-labs docker://registry.cn-hangzhou.aliyuncs.com/acgpiano/sqli-labs
