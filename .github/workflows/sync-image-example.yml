@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://sajiea/lcjweb docker://registry.cn-hangzhou.aliyuncs.com/sajiea/lcjweb
+         skopeo copy docker://sajiea/tempgame docker://registry.cn-hangzhou.aliyuncs.com/sajiea/tempgame
