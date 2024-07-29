@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://sajiea/phpcms:nologin docker://registry.cn-hangzhou.aliyuncs.com/sajiea/wujincms:nologin
+         skopeo copy docker://hominsu/sqli-labs docker://registry.cn-hangzhou.aliyuncs.com/hominsu/sqli-labs
