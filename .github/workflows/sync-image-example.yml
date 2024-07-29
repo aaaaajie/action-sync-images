@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://sajiea/wiki docker://registry.cn-hangzhou.aliyuncs.com/sajiea/wiki
+         skopeo copy docker://area39/pikachu docker://registry.cn-hangzhou.aliyuncs.com/area39/pikachu
