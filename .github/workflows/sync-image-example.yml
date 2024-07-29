@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://sajiea/ezctf docker://registry.cn-hangzhou.aliyuncs.com/sajiea/ezctf
+         skopeo copy docker://sajiea/huox docker://registry.cn-hangzhou.aliyuncs.com/sajiea/huox
